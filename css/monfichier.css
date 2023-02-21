@@ -379,6 +379,13 @@
     margin: 100px;
     font-size: x-large;
  }
+ @font-face {
+    font-family: "myFont";
+    src: url("myFont.ttf");
+  }
+  p {
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+  }
  
  
 
