@@ -65,7 +65,7 @@
  }
  ul li a{
      text-decoration: none;
-     color: green;
+     color: green; 
      font-family: arial;
      font-weight: bold;
      transition: 0.4s ease-in-out;
@@ -168,12 +168,13 @@
      font-size: 50px;
  }
  .form {
-     width: 250px;
+     width:max-content;
      height: 380px;
      background: linear-gradient( to top, rgba(197, 199, 197, 0.8)50%,rgba(197, 199, 197, 0.8)50%);
      top: -20px;
      margin: 2px;
      padding: 2px;
+     align-items: start;
      
  }
  .form h2{
@@ -405,6 +406,15 @@ background-color: #FFFFFFAA;
  .image{
     width: 200px;
     height: 200px;
+ }
+ #signin{
+    display: inline;
+    margin-left: none;
+    margin-bottom: 60px;
+ }
+ .label{
+    display: inline;
+    
  }
  
 
