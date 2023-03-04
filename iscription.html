@@ -8,26 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>your identity</h1>
+    <h1 id="identity">your identity</h1>
     <p id="result"></p>
     <form id="testForm">
         <p>
         <label for="name">Name:</label>
-        <input type="text"  id="name" name="user_name" />
+        <input type="text"  id="name" name="user_name" required />
         </p>
-        <p><label for="name">Name:</label>
-            <input type="text"  id="postname" name="user_postname" /></p>
+        <p><label for="name">otherName:</label>
+            <input type="text"  id="postname" name="user_postname" required/></p>
         <p>
         <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email" />
+        <input type="email" id="mail" name="user_email" required/>
         </p>
         <p>
             <label for="phone">phone number </label>
-            <input type="tel" id="mail" name="phone number" />
+            <input type="tel" id="mail" name="phone number" required />
         </p>
         <p>
             <label for="password">password</label>
-            <input type="password" id="password" name="user_password" />  
+            <input type="password" id="password" name="user_password" required />  
         </p>
        
         <fieldset>
@@ -51,12 +51,15 @@
     <h1 id="para"></h1>
     <p id="message"> </p>
    </div>
-<div><div> <a href="about.html" id="about"></a></div>
-    <div><a href="service.html"service></a></div>
-    <div><a href="galerie.html" id="gallerie"></a></div>
-    <div><a href="contact.htmlid=contactcontacts"></a></div>
-    <div><a href="tarif.html"></a></div>
+<div class="menu">
+    <div><a href="index.html" id="home"></a></div>
+    <div> <a href="about.html" id="about"></a></div>
+    <div><a href="service.html" id ="service"></a></div>
+    <div><a href="galerie.html" id="galerie"></a></div>
+    <div><a href="contact.htmlid=contact"></a></div>
+    
 </div>
+<div><a href="profil.html" id="profil"></a></div>
     
 </body>
 <script src="javafile.js"></script>
